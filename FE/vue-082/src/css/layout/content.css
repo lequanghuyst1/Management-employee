@@ -1,0 +1,9 @@
+.content {
+    margin: 0 24px;
+    background-color: #eeeff1;
+    height: calc(100vh - 56px);
+    width: calc(100% - 200px - 48px);
+    flex: 1;
+}
+
+

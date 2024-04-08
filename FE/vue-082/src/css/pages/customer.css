@@ -1,0 +1,200 @@
+
+.content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+}
+.content__header-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f1f20;
+}
+.content__header-group-button {
+    display: flex;
+    column-gap: 16px;
+}
+
+#m-button-uncheked{
+    color: red;
+    font-weight: 700;
+}
+#btn-delete-all i{
+    color: red;
+}
+.content .content__toolbar {
+    height: 60px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+.content__body {
+    height: calc(100% - 68px);
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden;
+}
+.content .content__toolbar-left {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    font-size: 14px;
+}
+.content .content__toolbar-right {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.content__toolbar-search{
+    width: 250px;
+}
+.content__toolbar-left--selected{
+    height: 36px;
+    line-height: 36px;
+}
+#m-button-reload i {
+    rotate: 90deg;
+}
+#m-dialog__info-customer{
+    z-index: 3;
+}
+#m-dialog__info-customer .m-dialog__container {
+    width: 70%;
+}
+#m-dialog__info-customer .m-dialog__footer {
+    height: 70px;
+    padding: 0 24px;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+
+#m-dialog__info-customer .m-dialog__group-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-action{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aeadad;
+}
+.customer-action-item{
+    padding: 8px;
+}
+.customer-action-item:hover{
+    color: #50B83C;
+}
+
+/* setting */
+.warrap-setting{
+    width: 312px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: calc(100% + 1px);
+    background-color: #ffffff;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.078);
+    border-radius: 4px;
+}
+.setting__header{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.setting__header-tilte{
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+}
+.setting__header-close{
+    color: #666666;
+}
+.setting__search{
+    padding: 0 16px;
+}
+.setting__body{
+    margin-top: 12px;
+    height: calc(100% - 56px - 36px - 24px - 48px);
+    overflow-y: scroll;
+}
+.setting__list-field{
+    height: 100%;
+}
+.setting__list-field-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.setting__list-field-item:hover{
+    background-color: #F4FFF2;
+}
+.setting__list-field-item--checbox{
+    margin-left: 24px;
+}
+.setting__list-field-item--name{
+    flex: 1;
+    text-align: left;
+    color: #212121;
+    font-size: 14px;
+}
+.setting__list-field-item--pin{
+    rotate: 45deg;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aeadad;
+    margin-right: 16px;
+}
+.setting__footer{
+    width: 100%;
+    padding: 0 16px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    height: 56px;
+    border-bottom-left-radius:4px ;
+    border-bottom-right-radius:4px ;
+}
+
+/* excel */
+.warrap-excel{
+    width: 200px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 1px);
+    z-index: 5;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    border-radius: 4px;
+}
+.excel__list{
+    list-style: none;
+}
+.excel__list-item{
+    text-align: left;
+    font-size: 14px;
+    color: #212121;
+    padding: 0 12px;
+    height: 38px;
+    line-height: 38px;
+}
+.excel__list-item:hover{
+    background-color: #F2F2F2;
+}

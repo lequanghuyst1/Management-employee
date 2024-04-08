@@ -1,0 +1,195 @@
+.m-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.m-icon-16 {
+  background-size: 16px 16px;
+}
+.m-icon-add {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -612px -898px;
+  width: 24px;
+  height: 24px;
+  scale: 0.6;
+}
+.m-icon-dashboard {
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  width: 24px;
+  height: 24px;
+  background-position: -424px -88px;
+}
+
+/* .m-icon-logo {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -62px -1792px;
+  width: 48px;
+  height: 48px;
+  scale: 0.7;
+}
+.m-icon-name-logo {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -31px -1854px;
+  width: 109px;
+  height: 12px;
+  scale: 0.8;
+  margin-left: -16px;
+} */
+.m-icon-logo  {
+	background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1232px -1015px;
+	width: 44px;
+	height: 45px;
+  scale: calc(38/44);
+}
+.m-icon-employee {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -165px -1664px;
+  width: 17px;
+  height: 17px;
+}
+.m-icon-add {
+  background-image: url(../../assets/img/Sprites.64af8f61.svg);
+  width: 30px;
+  height: 30px;
+  background-position: -609px -896px;
+}
+.m-icon-toggle {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1157px -32px;
+  width: 16px;
+  height: 16px;
+}
+.m-icon-setting {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -90px -201px;
+  width: 20px;
+  height: 22px;
+}
+.m-icon-reload {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -424px -201px;
+  width: 22px;
+  height: 23px;
+  scale: calc(20 / 24);
+}
+.m-icon-home {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -33px -1587px;
+  width: 18px;
+  height: 20px;
+}
+.m-icon-cash {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -78px -1588px;
+  width: 14px;
+  height: 18px;
+}
+.m-icon-deposits {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -121px -1590px;
+  width: 16px;
+  height: 16px;
+}
+
+.m-icon-purchase {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -165px -1589px;
+  width: 16px;
+  height: 18px;
+}
+.m-icon-sell {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -206px -1588px;
+  width: 20px;
+  height: 18px;
+}
+.m-icon-manage-invoice {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -254px -1589px;
+  width: 14px;
+  height: 17px;
+}
+
+.m-icon-warehouse {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -294px -1589px;
+  width: 18px;
+  height: 17px;
+}
+.m-icon-tools {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -339px -1590px;
+  width: 18px;
+  height: 17px;
+}
+.m-icon-asset {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -382px -1589px;
+  width: 17px;
+  height: 18px;
+}
+.m-icon-tax {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -427px -1591px;
+  width: 16px;
+  height: 16px;
+}
+.m-icon-price {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -470px -1590px;
+  width: 18px;
+  height: 17px;
+}
+.m-icon-synthetic {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -514px -1590px;
+  width: 16px;
+  height: 18px;
+}
+.m-icon-budget {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -427px -1664px;
+  width: 16px;
+  height: 16px;
+}
+
+.m-icon-report {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -552px -1593px;
+  width: 14px;
+  height: 13px;
+}
+.m-icon-financial-analysis {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -251px -1667px;
+  width: 17px;
+  height: 14px;
+}
+.m-icon-prev {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1372px -361px;
+  width: 8px;
+  height: 14px;
+}
+.m-icon-next {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -84px -409px;
+  width: 8px;
+  height: 14px;
+}
+.m-icon-ecxel {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -614px -834px;
+  width: 34px;
+  height: 30px;
+  scale: calc(20 / 30);
+}
+.m-icon-menu {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -847px -35px;
+  width: 16px;
+  height: 14px;
+}
+.m-icon-arrow-down {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1129px -365px;
+  width: 14px;
+  height: 8px;
+  scale: calc(12 / 14);
+}
+.m-icon-edit {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1658px -90px;
+  width: 21px;
+  height: 20px;
+  scale: calc(18 / 21);
+}
+.m-icon-delete {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1490px -89px;
+  width: 21px;
+  height: 21px;
+  scale: calc(18 / 21);
+}
+.m-icon-bold-down {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -900px -365px;
+  width: 8px;
+  height: 5px;
+}
+.m-icon-clone {
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1546px -89px;
+  width: 21px;
+  height: 21px;
+  scale: calc(18 / 21);
+}

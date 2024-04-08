@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kuR3RBvaxyMte5MaKVC5BRLYw+Hh3+YfrfSoTU2YARY=",
+  "Source": "MISA.AMIS.Api",
+  "BasePath": "_content/MISA.AMIS.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

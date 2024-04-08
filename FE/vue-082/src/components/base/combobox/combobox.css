@@ -1,0 +1,106 @@
+.m-combobox .m-textfield::placeholder{
+    font-style: normal;
+    font-size: 14px;
+    color: #9E9E9E;
+}
+.m-combobox-list{
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+    padding: 8px 7px;
+    height: 190px;
+    margin-top: 2px;
+    border-radius: 4px;
+    position: absolute;
+    top:38px;
+    width: 100%;
+    box-shadow: 0 6px 40px rgba(0,0,0,0.09);
+    z-index: 5;
+
+}
+.m-combobox-list__item{
+    height: 36px;
+    padding: 0 7px;
+    line-height: 32px;
+    border-radius: 4px;
+    color: #1F1F1F;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.m-combobox-list__item:hover{
+    background-color: #F2F2F2;
+}
+.m-combobox-list__item.hover-item{
+    background-color: #F2F2F2;
+}
+.m-combobox-list__item.selected{
+    background-color: #E3F9DE;
+    color: #52B93F;
+}
+
+.m-combobox-list__item.selected .m-combobox-list__item-icon{
+    color: #52B93F;
+}
+.m-combobox-list__item .m-combobox-list__item-icon{
+    color: #fff;
+}
+
+.m-combobox-list__item .m-combobox-list__item-text{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.m-textfiled-icon .m-textfiled-icon--down,
+.m-textfiled-icon .m-textfiled-icon--up {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 34px;
+    top: calc(50%);
+    transform: translateY(-50%);
+    right: 1px;
+    background: transparent;
+    font-size: 16px;
+    color: #666666;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    border-left: 1px solid #e0e0e0;
+    transition: 0.5s;
+}
+.m-textfiled:focus ~ .m-textfiled-icon--down{
+    border-color: #50b83c;
+}
+/* .m-textfiled-icon .m-textfiled-icon--down::after,
+.m-textfiled-icon .m-textfiled-icon--up::after{
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 1px;
+    height: 34px;
+    background-color: #e0e0e0;
+    z-index: 10;
+} */
+.m-textfiled-icon .m-icon-combobox:active {
+    background-color: #ebebeb;
+}
+/* .m-textfield:focus ~ .m-textfiled-icon--down{
+    background-color: #ebebeb;
+    border-color: #50b83c;
+}
+.m-textfield:focus ~ .m-textfiled-icon--up{
+    background-color: #ebebeb;
+    border-color: #50b83c;
+} */
+@keyframes onShowIcon {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

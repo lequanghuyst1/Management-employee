@@ -1,0 +1,106 @@
+.header {
+    height: 56px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+.header__logo {
+    width: 200px;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.header__logo .header__logo-icon {
+    margin-left: 20px;
+    margin-right: 12px;
+}
+.m-icon-name-logo{
+    flex: 1;
+}
+.header__logo .header__logo-image {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.m-icon-name-logo{
+    font-weight: 600;
+    text-align: left;
+    margin-left: 6px;
+    font-size: 20px;
+}
+.header__info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+.header__info-name{
+    display: flex;
+    align-items: center;    
+}
+.header__info .header__info-company-name {
+    font-size: 14px;
+    margin-left: 32px;
+    margin-right: 12px;
+}
+.header__info .header__navbar-list {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.header__info .header__navbar-list .header__navbar-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #7a8188;
+}
+.header__info .header__navbar-list .header__navbar-icon:hover {
+    color: #50b83c;
+    cursor: pointer;
+}
+.header__navbar-item-user {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    cursor: pointer;
+    position: relative;
+}
+.user-action{
+    position: absolute;
+    top: calc(100% + 10px);
+    width: 200px;
+    background-color: #FFFFFF;
+    right: 0;
+    padding: 4px;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    z-index: 3;
+}
+.user-action-item{
+    list-style: none;
+    height: 48px;
+    text-align: left;
+    padding: 0 12px;
+    line-height: 48px;
+    font-size: 14px;
+}
+.user-action-item:hover{
+    background-color: #F2F2F2;
+}
+.header__navbar-item-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.header__navbar-item-user-name {
+    color: #111;
+    font-size: 14px;
+    font-weight: 600;
+}
